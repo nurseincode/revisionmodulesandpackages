@@ -1,4 +1,10 @@
-import my_module
+# import my_module
+
+from modules.my_module import greeting, person
 
 
-print(my_module.greeting)
+print(greeting)
+print(person)
+# print(total)
+
+# foo(person)
